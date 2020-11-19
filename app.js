@@ -107,9 +107,9 @@ function generateQuestionPage() {
   let currentQuestion = store.questions[store.questionNumber];
   let answers = currentQuestion.answers.map(function (answer, index) {
     if (index === 0) {
-      return `<input type="radio" id="answer${index}" name="answer" value="${answer}"/><label for="answer${index}" required>${answer}</label></br></br>`;
+      return `<input type="radio" id="answer${index}" name="answer" value="${answer}" required><label for="answer${index}">${answer}</label></br></br>`;
     } else {
-      return `<input type="radio" id="answer${index}" name="answer" value="${answer}"/><label for="answer${index}">${answer}</label></br></br>`;
+      return `<input type="radio" id="answer${index}" name="answer" value="${answer}"><label for="answer${index}">${answer}</label></br></br>`;
     }
   });
 
