@@ -6,3 +6,88 @@
   * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
   *
 */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Permanent+Marker&display=swap");
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Permanent Marker', cursive; */
+
+body {
+  margin: auto;
+  background-color: #16302b;
+}
+
+div {
+  border-style: solid;
+  border-color: #edffec;
+  margin: 50px;
+  padding: 30px;
+}
+button {
+  margin-top: 10px;
+}
+h1 {
+  text-align: center;
+}
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 25px;
+  text-align: left;
+  letter-spacing: -1px;
+}
+h3 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 1000;
+  letter-spacing: -2px;
+}
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  border-style: solid;
+  padding: 5px;
+  width: 27%;
+  text-align: center;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+label {
+  margin-left: 10px;
+}
+button {
+  margin-top: 20px;
+  background-color: black;
+  color: #edffec;
+  padding: 10px;
+  border-style: none;
+  font-family: font-family: "Open Sans", sans-serif;;
+}
+#nextBtn{
+  font-family: "Open Sans", sans-serif;
+}
+#restart{
+  font-family: "Open Sans", sans-serif;
+}
+#startQuiz{
+  font-family: "Open Sans", sans-serif;
+}
+form {
+  margin-left: 20px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+}
+
+@media all and (min-width: 800px) {
+  body {
+    margin: auto;
+    width: 60%;
+  }
+}

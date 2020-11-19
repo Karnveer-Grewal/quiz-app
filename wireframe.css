@@ -1,0 +1,14 @@
+body {
+  font-size: 15px;
+  margin: auto;
+}
+
+section {
+  border-style: solid;
+  border-color: green;
+  margin: 50px;
+  padding: 30px;
+}
+button {
+  margin-top: 10px;
+}
